@@ -1,0 +1,10 @@
+2018-03-29 00:03:05 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-03-29 00:03:05 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-03-29 00:03:48 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-03-29 00:03:48 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-03-29 00:38:00 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-03-29 00:38:00 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-03-29 00:41:39 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-03-29 00:41:39 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-03-29 00:42:00 DEBUG EventHandlingWebDriverContainer:61 - Updating window count to 1
+2018-03-29 00:42:00 DEBUG EventHandlingWebDriverContainer:61 - Updating window count to 1

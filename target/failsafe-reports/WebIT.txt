@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: WebIT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 44.761 sec <<< FAILURE! - in WebIT
+Then I should see list of Samsung phones displayed(Scenario: Search Samsung)  Time elapsed: 0.046 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot find element using locator mechanism: By.cssSelector: span[class='a-color-state.a-text-bold'] and conditions: present
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VISHALs-MacBook-Pro-2.local', ip: '192.168.40.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.lambda$0(WebElementWrapper.java:37)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.getWrappedElement(WebElementWrapper.java:37)
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.getText(WebElementWrapper.java:94)
+	at io.magentys.cinnamon.webdriver.elements.PageElementFacade.getText(PageElementFacade.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.magentys.cinnamon.webdriver.support.pagefactory.PageElementInterceptor.intercept(PageElementInterceptor.java:28)
+	at io.magentys.cinnamon.webdriver.elements.PageElement$$EnhancerByCGLIB$$72dc5c45.getText(<generated>)
+	at com.practice.pages.LandingPage.verifySamsung(LandingPage.java:46)
+	at com.practice.stepdefs.StepDefs.i_should_see_list_of_Samsung_phones_displayed(StepDefs.java:38)
+	at ✽.Then I should see list of Samsung phones displayed(features/web.feature:12)
+
+Scenario: Search Samsung  Time elapsed: 0.047 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot find element using locator mechanism: By.cssSelector: span[class='a-color-state.a-text-bold'] and conditions: present
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VISHALs-MacBook-Pro-2.local', ip: '192.168.40.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.lambda$0(WebElementWrapper.java:37)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.getWrappedElement(WebElementWrapper.java:37)
+	at io.magentys.cinnamon.webdriver.elements.WebElementWrapper.getText(WebElementWrapper.java:94)
+	at io.magentys.cinnamon.webdriver.elements.PageElementFacade.getText(PageElementFacade.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.magentys.cinnamon.webdriver.support.pagefactory.PageElementInterceptor.intercept(PageElementInterceptor.java:28)
+	at io.magentys.cinnamon.webdriver.elements.PageElement$$EnhancerByCGLIB$$72dc5c45.getText(<generated>)
+	at com.practice.pages.LandingPage.verifySamsung(LandingPage.java:46)
+	at com.practice.stepdefs.StepDefs.i_should_see_list_of_Samsung_phones_displayed(StepDefs.java:38)
+	at ✽.Then I should see list of Samsung phones displayed(features/web.feature:12)
+
